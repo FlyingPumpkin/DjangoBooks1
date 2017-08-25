@@ -39,7 +39,7 @@ def contact(request):
             send_mail(
                 cd['subject'],
                 cd['message'],
-                cd.get('email', ''),
+                cd.get('email', '232123@qq.com'),
                 [''],
                 auth_user='', auth_password='',
             )
